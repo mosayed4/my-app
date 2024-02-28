@@ -1,0 +1,36 @@
+header{ 
+    width: 100%;
+    height: 60px;
+    background-color: DBDFD0;
+    display: flex ;
+    align-items: center;
+    justify-content: center; 
+    font-size:medium;
+}
+ header nav {
+    width: 85%;
+    height: 100%;
+    background-color: DBDFD0 ;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    flex-wrap: wrap ;
+
+}
+header nav ul  {
+    display: flex;
+    gap:  5PX;
+}
+
+header nav ul a {
+     padding: 5px 20px ;
+ border-radius:20px ;
+     background-color: ;
+}
+header nav ul a:hover  {
+    background-color: beige;
+
+}
+header nav ul  .active{
+    background-color: beige;
+}

@@ -1,23 +1,36 @@
 
 import React, { Fragment } from 'react'
-import NavLink from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+import './nav.css'
+import imgLogo from './../../images/Logo.png'
+
+
+
+
 const Nav = () => {
   return (
     <Fragment>
-    <header>
+    <header> 
+      <nav>
+
     <span>
-        logo
+    <NavLink to={'/home'}>
+    <img src={imgLogo} alt="" />
+  </NavLink>
+
       </span>
     <ul>
     <NavLink to={'/home'}>Home</NavLink>
     <NavLink to={'/about'}>About</NavLink>
-    <NavLink to={'/contcant'}>Contcant</NavLink>
-    <NavLink to={'/Login'}>Login</NavLink>
     <NavLink to={'/menu'}>Menu</NavLink>
     <NavLink to={'/pages'}>Pages</NavLink>
+    <NavLink to={'/contcant'}>Contcant</NavLink>
+    <NavLink to={'/Login'}>Login</NavLink>
     <NavLink to={'/registration'}>Registration</NavLink>
    
     </ul>
+    </nav>
+
     </header>
     </Fragment>
   )
