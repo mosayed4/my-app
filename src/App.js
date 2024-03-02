@@ -8,6 +8,7 @@ import Login from "./Routes/Login";
 import Menu from "./Routes/Menu";
 import Pages from "./Routes/Pages";
 import Registration from "./Routes/Registration";
+import Booking from "./Routes/Booking";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/menu" element={<Menu/>} />
         <Route path="/pages" element={<Pages/>} />
         <Route path="/registration" element={<Registration/>} />
+        <Route path="/booking" element={<Booking/>} />
       </Routes>
     </div>
   );

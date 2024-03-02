@@ -1,0 +1,51 @@
+.backgroundSection {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.backgroundSection img {
+  position: relative;
+
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+.backgroundData img {
+  width: 450px;
+  height: 200px;
+}
+.backgroundData {
+  position: absolute;
+  width: 600px;
+  height: 200px;
+  top: 250px;
+  left: 400px;
+}
+.backgrounBtn1 a{
+  position: absolute;
+  width: 120px;
+  height: 42px;
+  top: 500px;
+  left: 580px;
+  background-color:#AD343E;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   color: white;
+}
+.backgrounBtn2 a{
+  position: absolute;
+  width: 120px;
+  height: 42px;
+  top: 500px;
+  left: 720px;
+  background-color:transparent;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   color:black;
+   border: solid 2px black;
+   font-weight: 500;
+}

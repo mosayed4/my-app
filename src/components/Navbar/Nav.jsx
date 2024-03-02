@@ -15,7 +15,7 @@ const Nav = () => {
 
     <span>
     <NavLink to={'/home'}>
-    <img src={imgLogo} alt="" />
+    <img src={imgLogo} alt=""  height='50px'/>
   </NavLink>
 
       </span>

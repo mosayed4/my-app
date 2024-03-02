@@ -8,29 +8,32 @@ header{
     font-size:medium;
 }
  header nav {
-    width: 85%;
-    height: 100%;
-    background-color: DBDFD0 ;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 60px;
+    background-color: #DBDFD0 ;
     display: flex;
     align-items: center ;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap ;
 
 }
 header nav ul  {
     display: flex;
     gap:  5PX;
+
 }
 
 header nav ul a {
      padding: 5px 20px ;
- border-radius:20px ;
-     background-color: ;
+     border-radius:20px ;
+     
 }
 header nav ul a:hover  {
-    background-color: beige;
+    background-color:rgb(167, 167, 167) ;
 
 }
-header nav ul  .active{
+header nav ul .active{
     background-color: beige;
 }
