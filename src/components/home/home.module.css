@@ -18,14 +18,14 @@
   position: absolute;
   width: 600px;
   height: 200px;
-  top: 250px;
+  top: 200px;
   left: 400px;
 }
 .backgrounBtn1 a{
   position: absolute;
   width: 120px;
   height: 42px;
-  top: 500px;
+  top: 450px;
   left: 580px;
   background-color:#AD343E;
   border-radius: 20px;
@@ -38,7 +38,7 @@
   position: absolute;
   width: 120px;
   height: 42px;
-  top: 500px;
+  top: 450px;
   left: 720px;
   background-color:transparent;
   border-radius: 20px;
@@ -48,4 +48,26 @@
    color:black;
    border: solid 2px black;
    font-weight: 500;
+}
+
+
+.backgroundStyles.frsit{
+  width: 700px ;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+margin: 200px;
+
+
+}
+.backgroundStyles img{
+  gap: 15px;
+  padding: 200px;  width: 700px ;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+margin: 200px;
+
 }

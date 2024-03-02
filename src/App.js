@@ -9,6 +9,8 @@ import Menu from "./Routes/Menu";
 import Pages from "./Routes/Pages";
 import Registration from "./Routes/Registration";
 import Booking from "./Routes/Booking";
+import NavMenu from "./components/menu/NavMenu";
+import New from "./Routes/New";
 
 
 function App() {
@@ -20,10 +22,16 @@ function App() {
         <Route path="/contcant" element={<Contcant/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/login" element={<Login/>} />
-        <Route path="/menu" element={<Menu/>} />
+        <Route path="/menu" element={<Menu/>} >
+                     <Route path=':1' element={<New/>} /> {/*A nested route!*/}
+                    <Route path=':postId' element={<NavMenu/>} /> {/*A nested route!*/}
+                    </Route>
+
         <Route path="/pages" element={<Pages/>} />
         <Route path="/registration" element={<Registration/>} />
         <Route path="/booking" element={<Booking/>} />
+        
+
       </Routes>
     </div>
   );

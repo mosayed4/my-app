@@ -1,7 +1,7 @@
 import { Fragment } from "react"
 import React  from 'react'
 import Background1 from './../../../images/Background.png'
-import backgroundStyles from './../../home/Background/home.module.css'
+import backgroundStyles from './../../home/home.module.css'
 import text1 from './../../..//images/text.png'
 
 import { Link } from "react-router-dom"

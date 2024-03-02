@@ -7,7 +7,7 @@ header{
     justify-content: center; 
     font-size:medium;
 }
- header nav {
+header nav {
     position: fixed;
     z-index: 999;
     width: 100%;
@@ -17,23 +17,26 @@ header{
     align-items: center ;
     justify-content: space-around;
     flex-wrap: wrap ;
-
+    
 }
 header nav ul  {
     display: flex;
     gap:  5PX;
-
+    
 }
 
 header nav ul a {
      padding: 5px 20px ;
      border-radius:20px ;
-     
-}
-header nav ul a:hover  {
-    background-color:rgb(167, 167, 167) ;
+     color: black;
+     font-weight: 500;
 
+     
+    }
+    header nav ul a:hover  {
+        background-color:rgb(239, 237, 237) ;
+        
 }
 header nav ul .active{
-    background-color: beige;
+    background-color: rgb(168, 168, 162);
 }

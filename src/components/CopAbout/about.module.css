@@ -1,0 +1,42 @@
+
+
+
+.content {
+  width: 700px;
+
+  height: 500px;
+}
+
+.contentImg {
+  margin: 50px 70px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+}
+.video1  {
+  width: 50%;
+  height: 90%;
+  filter: brightness(50%);
+  background-color: "rgba(0, 0, 0, 10)";
+}
+
+.contentFeedback {
+  width: 100%;
+  height: 300px;
+}
+.contentFeedback img {
+  padding: 70px 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(183, 183, 183, 0.7);
+}
+.Allsection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    flex-wrap: wrap;
+    gap: 10px ;
+}
+.Allsection img {
+    width:  500px;
+}
