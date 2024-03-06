@@ -10,6 +10,7 @@ const Background = () => {
     <Fragment>
         <section className={backgroundStyles.backgroundSection}>
         <img src={Background1} alt="" />  
+        
         <div className={backgroundStyles.backgroundData}>
         <img src={text1} alt="" />  
         </div>

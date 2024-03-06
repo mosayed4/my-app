@@ -7,6 +7,7 @@ import imgLogo from './../../images/Logo.png'
 
 
 
+
 const Nav = () => {
   return (
     <Fragment>
@@ -27,10 +28,14 @@ const Nav = () => {
     <NavLink to={'/contcant'}>Contcant</NavLink>
     <NavLink to={'/Login'}>Login</NavLink>
     <NavLink to={'/registration'}>Registration</NavLink>
+  
+    <NavLink to={'/booking'} id='book' >Book A Table</NavLink>
+    
+
    
     </ul>
     </nav>
-
+   
     </header>
     </Fragment>
   )

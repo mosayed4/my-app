@@ -1,4 +1,4 @@
-.Section1Styles.frsit{
+.frsit{
     width: 700px ;
     height: 500px;
     display: flex;
@@ -10,5 +10,9 @@
   }
    
   
-
+  .frsit img { 
+    width: 500px;
+    height: 500px;
+ gap: 50px;
+  }
     

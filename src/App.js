@@ -9,8 +9,11 @@ import Menu from "./Routes/Menu";
 import Pages from "./Routes/Pages";
 import Registration from "./Routes/Registration";
 import Booking from "./Routes/Booking";
-import NavMenu from "./components/menu/NavMenu";
-import New from "./Routes/New";
+import Breakfastt from "./components/menu/Breakfastt";
+import Drinks from "./components/menu/Drinks";
+import MainDishes from "./components/menu/MainDishes";
+import Desserts from "./components/menu/Desserts";
+import All from "./components/menu/All";
 
 
 function App() {
@@ -23,8 +26,11 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/menu" element={<Menu/>} >
-                     <Route path=':1' element={<New/>} /> {/*A nested route!*/}
-                    <Route path=':postId' element={<NavMenu/>} /> {/*A nested route!*/}
+                     <Route path='all' element={<All/>} /> {/*A nested route!*/}
+                    <Route path='breakfastt' element={<Breakfastt/>} /> {/*A nested route!*/}
+                    <Route path='drinks' element={<Drinks/>} /> {/*A nested route!*/}
+                    <Route path='mainDishes' element={<MainDishes/>} /> {/*A nested route!*/}
+                    <Route path='desserts' element={<Desserts/>} /> {/*A nested route!*/}
                     </Route>
 
         <Route path="/pages" element={<Pages/>} />

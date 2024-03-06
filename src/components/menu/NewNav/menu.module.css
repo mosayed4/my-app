@@ -1,0 +1,38 @@
+.ImgS {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.Nav {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 60px;
+}
+.Nav ul {
+  display: flex;
+  align-items: center;
+
+  gap: 20px;
+  padding: 5px 20px;
+  color: black;
+  font-weight: 500;
+  justify-content: space-around;
+}
+.Nav ul a {
+  padding: 8px 30px;
+  border-radius: 20px;
+  color: black;
+  font-weight: 500;
+  background-color: #ffffff;
+  border: #dbdfd0 solid 2px;
+}
+
+.Nav ul :hover {
+  background-color: #ad343e;
+  color: white;
+}
