@@ -1,7 +1,6 @@
 .parent {
   width: 100%;
   height: 150vh;
-  padding-top: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,14 +14,15 @@
 .parent .desc {
   width: 550px;
   font-size: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
+
 .container {
   padding-left: 24px;
   box-shadow: 1px 1px 14px -2px rgba(1.75, 0.75, 0.75, 0.75);
   width: 750px;
-  height: 400px;
-  padding-top: 100px;
+  height: 500px;
+  padding-top: 50px;
   z-index: 99;
   border-radius: 20px;
 }
@@ -67,7 +67,8 @@ form .row_one {
 }
 form .row_two {
   width: 700px;
-  display: flex;
+
+  /* display: block; */
   justify-content: space-between;
 }
 form .row_three {
@@ -101,4 +102,35 @@ form button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+/* mass */
+form .col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  font-weight: 600;
+}
+form .col1 textarea {
+  width: 700px;
+  height: 150px;
+  border: 2px solid #dbdfd0;
+  border-radius: 25px;
+  outline: none;
+  padding-left: 15px;
+}
+form .col2 input {
+  width: 700px;
+  height: 45px;
+  border: 2px solid #dbdfd0;
+  border-radius: 25px;
+  outline: none;
+  padding-left: 15px;
+}
+form .col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  font-weight: 600;
 }

@@ -1,41 +1,40 @@
 
-import secone from '../booking/book.module.css'
+import secone from './contact.module.css'
 // import imgbok55 from '../../images/Book A Table (1).png'
-const Booking1 = () => (
+const Contact = () => (
   <div className={secone.parent}>
-  <p className={secone.title_head}>Book A Table</p>
+  <p className={secone.title_head}>Contact Us</p>
   <p className={secone.desc}>We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
   <div className={secone.container}>
   <form>
     <div className={secone.row_one}>
       
         <div className={secone.col}>
-    <label >Date</label>
-    <input type="date"  name="date" placeholder='04/01/2024' />
+    <label >Name</label>
+    <input type="text"  name="name" placeholder='Enter your name' />
     </div>
 
     <div className={secone.col}>
-    <label>Time</label>
-    <input type="time"  name="time" placeholder='06:30 PM' />
+    <label>Email</label>
+    <input type="Email"  name="Email" placeholder='Enter Email address' />
     </div>
     </div>
 
     <div className={secone.row_two}>
-    <div className={secone.col}>
-    <label >Name</label>
-    <input type="text"   name="name" placeholder='Enter your name' />
+    <div className={secone.col2}>
+    <label >Subject</label>
+    <input type="text"   name="subject" placeholder='Write a subject' />
     </div>
-    <div className={secone.col}>
-    <label>Phone</label>
-    <input type="tel"  name="phone" placeholder='x-xxx-xxx-xxxx'  />
+    <div className={secone.col1}>
+    <label>Message</label>
+    <textarea  name="message" placeholder='Write your message'  />
     </div>
     </div>
     <div className={secone.row_three}>
-    <label >Total Person</label>
-    <input type="number"  name="total" placeholder='1 person' />
+
 
     </div>
-    <button type="submit"  value="Submit">Book A Table</button>
+    <button type="submit"  value="Submit">Send</button>
 
   </form>
   </div>
@@ -45,4 +44,4 @@ const Booking1 = () => (
  );
 
 
-export default Booking1
+export default Contact

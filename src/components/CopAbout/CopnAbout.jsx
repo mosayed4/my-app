@@ -12,7 +12,7 @@ const CopnAbout = () => {
         
       <img src={img2} alt="" />
       <div className={content.video1}>   
-      <video src={video1} controls="controls" autoPlay ='true' />
+      <video src={video1} controls="controls" autoPlay ='true' loop muted/>
       </div> 
       <div className={content.contentFeedback}>
         <img src={img3} alt=""  />

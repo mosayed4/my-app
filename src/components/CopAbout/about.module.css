@@ -16,7 +16,7 @@
 .video1  {
   width: 50%;
   height: 90%;
-  filter: brightness(50%);
+  filter: brightness(35%);
   background-color: "rgba(0, 0, 0, 10)";
 }
 

@@ -22,7 +22,6 @@
 
 }
 .parent .cards {
-    
     display: flex;
     flex-wrap: wrap;
     width:65%;
@@ -30,6 +29,7 @@
     margin: auto;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 20px;
 }
 .parent .cards .card {
     width:250px;
@@ -41,11 +41,12 @@
     align-items: start;
     border-radius: 15px;
     margin-bottom: 10px;
-
-  
+    
+    
 }
 .parent .cards .card img{
     width:250px;
+    
 
 }
 .parent .cards .card .date{
@@ -54,7 +55,7 @@
     padding-left: 10px;
     color: #737865;
 
-
+    
 }
 .parent .cards .card .desc{
     color:737865;
@@ -62,6 +63,5 @@
     text-align: start;
     padding-left: 10px;
     font-weight: 600;
-
-
+   
 }
